@@ -16,7 +16,7 @@ class Student extends Person {
     super(name,age);
   }
   study() {
-     console.log(name+"is studying");
+     console.log(this.name + " is studying");
   }
 }
 
@@ -25,7 +25,7 @@ class Teacher extends Person {
     super(name,age);
   }
   teach() {
-     console.log(name+"is teaching");
+     console.log(this.name + " is teaching");
   }
 }
 
@@ -45,11 +45,7 @@ const teacher1 = new Teacher("John", 40);
 student1.study();
 teacher1.teach();
 
-
-
-
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
-window.Teacher = Teacher;
 window.Teacher = Teacher;
