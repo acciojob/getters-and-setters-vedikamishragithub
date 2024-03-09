@@ -37,10 +37,8 @@ console.log(person._age);
 
 const student = new Student("John", 22);
 const teacher = new Teacher("Alice", 40);
-console.log(student.study("John" ));
-console.log(student.study("Alice" ));
-console.log(teacher.teach("John" ));
-console.log(teacher.teach( "Alice"));
+student.study();
+teacher.teach();
 
 
 
