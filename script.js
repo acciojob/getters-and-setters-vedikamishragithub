@@ -37,12 +37,10 @@ console.log(person._age);
 
 const student = new Student("John", 22);
 console.log(student.study());
-console.log(teacher.teach());
 
 const teacher = new Teacher("Alice", 40);
 console.log(student.study());
-console.log(teacher.teach()); 
-
+console.log(teacher.teach());
 
 // Do not change the code below this line
 window.Person = Person;
