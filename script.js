@@ -40,6 +40,11 @@ const teacher = new Teacher("Alice", 40);
 student.study();
 teacher.teach();
 
+const student1 = new Student("Alice", 22);
+const teacher1 = new Teacher("John", 40);
+student1.study();
+teacher1.teach();
+
 
 
 
